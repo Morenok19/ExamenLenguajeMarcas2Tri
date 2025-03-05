@@ -1,0 +1,126 @@
+@font-face{
+    font-family: "Street";
+    src: url(fonts/street.otf)
+}
+:root {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: "Street";
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+}
+h1 {
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237,175,5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+}
+
+tr, td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    color: darkorange;
+    text-align: center;
+}
+thead{
+    background-image: url(img/fondocabecera.jpg);
+    background-size: cover;
+    width: 40px;
+    height: 45px;
+    font-size: 40px;
+    color: whitesmoke;
+    opacity: 0.5;
+}
+.textoBlanco {
+    color: whitesmoke;
+}
+.fotosTabla {
+    display: block;
+    margin: auto;
+}
+h2 {
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237,175,5);
+    color: white;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+legend {
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    font-family: "Street";
+}
+.salto {
+    display: block;
+}
+#inputNombre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#inputApellido {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Nick {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Correo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 560px;
+    height: 300px;
+}
+#Enviar {
+    border: 1px solid crimson;
+    border-radius: 5px;
+    background-color: crimson;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    font-family: "Street";
+
+}
+#DelBut {
+    border: 1px solid crimson;
+    border-radius: 5px;
+    background-color: crimson;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Street";
+
+}
+
+
